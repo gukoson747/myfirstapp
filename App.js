@@ -4,14 +4,15 @@ import {StackNavigator} from 'react-navigation';
 
 // Import screen page
 import HomeScreen from './components/home/homescreen';
-import SeacrchTabNavigator from './components/search/seacrchTabNavigator';
+import SearchTabNavigator from './components/search/searchTabNavigator';
 
 
 const App = StackNavigator({
   HomeScreen: { screen: HomeScreen },
-  SeacrchTabNavigator: { screen: SeacrchTabNavigator }
+  SearchTabNavigator: { screen: SearchTabNavigator }
+},{
+  initialRouteName: 'SearchTabNavigator'
 })
-
 
 export default App;
 

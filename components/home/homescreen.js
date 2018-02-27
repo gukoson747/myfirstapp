@@ -19,7 +19,7 @@ class HomeScreen extends Component{
                 </View>
                 <Button 
                     block={ true }
-                    onPress = {() => this.props.navigation.navigate('SeacrchTabNavigator')}
+                    onPress = {() => this.props.navigation.navigate('SearchTabNavigator')}
                 >
                     <Text style={{color: 'white'}}> Search Beers</Text>
                 </Button>

@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-class SeacrchTabNavigator extends Component{
+class Favorites extends Component{
     render(){
         return(
             <View>
                 <Text>
-                    This is the Search Tab Navigator page!
+                    This is the Favorites tab;
                 </Text>
-                <Text> wa.... guba! </Text>
             </View>
         );
     }
 }
 
-export default SeacrchTabNavigator;
+export default Favorites;
